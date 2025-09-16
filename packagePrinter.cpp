@@ -18,10 +18,8 @@ void package(int n) {
 
 int main() {
     int numberOfPackages;
-    
     cout << "Ingrese la cantidad de paquetes: ";
     cin >> numberOfPackages;
-    
     package(numberOfPackages);
     
     return 0;
