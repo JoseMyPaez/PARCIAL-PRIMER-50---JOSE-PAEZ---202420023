@@ -4,7 +4,6 @@ using namespace std;
 
 void package(int n) {
     cout << "Paquetes revisados: ";
-    
     if (n % 2 == 0) { 
         for (int i = 2; i <= n; i += 2) {
             cout << i << " ";
